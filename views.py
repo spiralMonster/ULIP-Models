@@ -15,7 +15,7 @@ from RouteOptimization.RoutePlanning.route_planning import PerformRoutePlanning
 
 model = ChatGoogleGenerativeAI(
         model="gemini-1.5-pro",
-        api_key='AIzaSyDam98z35w8kiYau_VCp95IqS53d2dwus4'
+        api_key=''
     )
 @csrf_exempt
 def get_routes(request,*args,**kwargs):

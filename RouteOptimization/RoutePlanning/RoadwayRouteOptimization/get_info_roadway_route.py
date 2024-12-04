@@ -35,11 +35,5 @@ def GetInfoRoadRoute(model,source,destination):
     print("Checking Roadway Routes...")
     return results
 
-if __name__=="__main__":
-    model = ChatGoogleGenerativeAI(
-        model="gemini-1.5-pro",
-        api_key='AIzaSyCve8Wj4fQj52DNw9qvjzcOesPfko4D084'
-    )
-    results=GetInfoRoadRoute(model,'Chennai','Mumbai')
-    print(results)
+
 

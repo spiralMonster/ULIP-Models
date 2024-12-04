@@ -221,15 +221,7 @@ def PerformRoutePlanning(model,source,destination):
     return output
 
 
-if __name__=='__main__':
-    model = ChatGoogleGenerativeAI(
-        model="gemini-1.5-pro",
-        api_key='AIzaSyBG_cGBRTmDLav1t_6Zb7q4Hp7pnlTLlMw'
-    )
-    source=input('Enter source city: ')
-    destination=input('Enter destination city: ')
-    results=PerformRoutePlanning(model,source,destination)
-    print(results)
+
 
 
 

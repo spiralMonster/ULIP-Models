@@ -15,7 +15,7 @@ def GetInfoAirwayRoute(model,dep_city,arr_city,date):
     "type": "2",
     "currency": "INR",
     "hl": "en",
-    "api_key": "0f2a817e7c3c9611960278ea9b89bf10398f53df74953a5dc6f32fa58c72a41e"
+    "api_key": ""
   }
 
   search = GoogleSearch(params)

@@ -26,10 +26,3 @@ def GetIATACode(model,city):
     })
     return results
 
-if __name__=='__main__':
-    model = ChatGoogleGenerativeAI(
-        model="gemini-1.5-pro",
-        api_key='AIzaSyD8-disvMK2_QG5guNwCJrrTg1aYYDGnkM'
-    )
-    results = GetIATACode(model,'Mumbai')
-    print(results)
